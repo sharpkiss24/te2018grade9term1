@@ -1,5 +1,5 @@
 // Example
-let message = "i hate you, i love you";
+let message = "i'm not that mean";
 console.log(message);
 
 // Type your code below!
