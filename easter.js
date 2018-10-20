@@ -16,6 +16,7 @@ let h=(19*a+b-d-g+15)%30;
 let I=c/4;
 let k=c % 4;
 let r=(32+2*e+2*1-h-k)%7;
+let
 
 console.log(a)
 console.log(b)
