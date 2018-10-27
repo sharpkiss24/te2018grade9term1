@@ -4,10 +4,20 @@ const READLINE = require("readline-sync");
 // You cannot see an R-rated movie unless you are at least 18, or you are with
 // an adult. Write code that prints whether or not someone can see an
 // R-rated movie.
+
 console.log("*** Problem 1: R-rated ***");
 let age = READLINE.question("Enter your age: ");
 let withAdult = READLINE.question("Are you with an adult? (yes or no): ");
 
+if (age >= 18){
+
+console.log("you are of the age group to watch movie")
+
+}else{
+
+console.log("i'm sorry but you are not able to watch this movie. but i'll give you another suggestion, if that will help")
+
+}
 
 // **** Problem 2: Umbrella ****
 // You should bring an umbrella when you travel, but only if it is raining.
@@ -18,6 +28,15 @@ console.log("*** Problem 2: Umbrella ***");
 let raining = READLINE.question("Is it raining? (yes or no): ");
 let thunderstorming = READLINE.question("Is it thunderstorming? (yes or no): ");
 
+if (raining == "yes"){
+
+console.log("you should bring a umbrella, i dont want you getting sick")
+}else{ 
+	
+}
+if (thunderstorming == "yes")
+
+	console.log("I don't think you should bring a umbrella, wear a coat")
 
 // **** Problem 3: Monkey Trouble ****
 // There are two monkeys: Bubbles and Spankey. You are in trouble if both of
@@ -58,4 +77,5 @@ let money = READLINE.question("How much money do you have?: ");
 // them they are cold.
 console.log("*** Problem 6: Guess My Number ***");
 let myNum = 5;
+let guess = READLINE.question("I'm thinking of a number. Guess it: ");
 let guess = READLINE.question("I'm thinking of a number. Guess it: ");
