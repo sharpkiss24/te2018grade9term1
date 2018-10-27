@@ -33,6 +33,7 @@ if (raining == "yes"){
 console.log("you should bring a umbrella, i dont want you getting sick")
 }else{ 
 	
+	console.log("is it going to be thunderstorming")
 }
 if (thunderstorming == "yes")
 
@@ -77,5 +78,4 @@ let money = READLINE.question("How much money do you have?: ");
 // them they are cold.
 console.log("*** Problem 6: Guess My Number ***");
 let myNum = 5;
-let guess = READLINE.question("I'm thinking of a number. Guess it: ");
 let guess = READLINE.question("I'm thinking of a number. Guess it: ");
