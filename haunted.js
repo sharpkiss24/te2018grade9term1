@@ -3,12 +3,12 @@ const READLINE = require("readline-sync");
 // use whatever properties you want for the player object
 let player = {
   name: undefined,
-  courage: 0,
-  intellect: 0,
-  strength: 0,
-  charm: 0,
-  weapon: "fists",
-  item: "flashlight",
+  courage: 12,
+  intellect: 100,
+  strength: 90,
+  charm: 150,
+  weapon: "death sycthe",
+  item: "high flashlight",
 };
 
 console.log();
@@ -19,8 +19,16 @@ console.log(`${player.name} hears what sounds like screaming coming from inside 
 let enterHouse = READLINE.question("Will you enter the house? (yes or no) ");
 if(enterHouse == "y" || enterHouse == "yes") {
   player.courage++;
-  console.log(`${player.name} prepares their ${player.weapon} and opens the door...`);
+  console.log(`${player.name} prepares her ${player.weapon} and opens the door...`);
   // continue the story
+  console.log(`${player.name} as soon as ${player.name} steps into the room`)
+console.log(`${player.name} is attacked by the guard dog of hades. Cerberus!!! `)
+console.log(`${player.name} screams 'why!? why must it be me?!'`)
+
+
+
+
+
 
 } else {
   player.intellect++;
