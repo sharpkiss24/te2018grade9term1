@@ -64,7 +64,9 @@ function deFront(str) {
 
   let cherry = str.substring(0,1)
 
-   let firstLetter= str.charAt(0)
+   let firstLetter = str.charAt(0)
+       
+      let secondLetter = str.charAt(1)
 
       if(firstLetter == )
 
