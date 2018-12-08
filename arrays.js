@@ -34,7 +34,7 @@ midThree([1, 2, 3]) → [1, 2, 3]
 
 function midThree(nums){
 s
-    let start = Math.floor(num.length /2) +2
+    let start = Math.floor(nums.length /2) +2
       new arr = nums.slice(start,end)
 }
 
