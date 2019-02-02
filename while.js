@@ -51,12 +51,8 @@ function getPasswordEnhanced() {
 			while(password != guess){
 					console.log("wrong password");
 						guess = READLINE.question("try again")
-			}
-							console.log("correct");{
-								if (guess <= 3)
-									console.log("you are a ROBOT")
 }
-								
+							console.log("correct");								
 }
 // Test below
 getPasswordEnhanced();
