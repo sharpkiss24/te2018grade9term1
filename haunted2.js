@@ -7,20 +7,22 @@ let player = {
   intellect: 0,
   strength: 0,
   charm: 0,
-  weapon: "light staff",
+  weapon: undefined,
   item: "high powered flashlight",
   courage: 90,
   intellect: 990,
   strength: 888,
   charm: 7000,
-  powers:"glitter bombs and time control",
-  item:"cute puppies"
+  powers: undefined
+  item: undefined,
   };
  console.log();
 
   console.log("*** WELCOME TO THE WITCH'S HOUSE  ***");
 
   player.name = READLINE.question("What is your name?");
+  weapon = READLINE.question("what is your weapon of choice?")
+
 
  console.log(`${player.name} stands in front of a spooky WITCH'S HOUSE.`);
   console.log(`${player.name} hears what sounds like screaming coming from inside the house.`);
@@ -33,7 +35,7 @@ let player = {
  } else {
   player.intellect++;
   
-  console.log(`${player.name} decides not to open the door, player sees the Witch's trick`);
+  console.log(`${player.name} decides not to open the door, ${player.name} sees that he/she would have died by the trap the Witch set`);
  }
 
   console.log("Thanks for playing level 1!");
