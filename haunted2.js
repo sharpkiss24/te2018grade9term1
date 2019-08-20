@@ -14,7 +14,7 @@ let player = {
   strength: 888,
   charm: 7000,
   powers: undefined
-  item: undefined,
+
   };
  console.log();
 
