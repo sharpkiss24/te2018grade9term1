@@ -6,13 +6,10 @@ let player = {
   courage: 100,
   intellect: 1300,
   strength: 90,
-  charm: 9000 ,
-  weapon: "death scythe",
-  item: "high flashlight",
-  catchphrase: undefined,
-  element: "death and fire and healing"
+  weapon: undefined,
+  item: "high-powered flashlight",
+  element: undefined,
 };
-("what is your element?")
 console.log();
 console.log("*** WELCOME TO THE HAUNTED HOUSE ***");
 player.name = READLINE.question("What is your name?:");
@@ -22,7 +19,7 @@ console.log(`${player.name} stands in front of a spooky haunted house.`);
 console.log(`${player.name} hears what sounds like screaming coming from inside the house.`);
 let enterHouse = READLINE.question("Will you enter the house? (yes or no) ");
 if(enterHouse == "y" || enterHouse == "yes") {
-  player.courage++;
+  player.intellect++;
 
   console.log(`${player.name} prepares her ${player.weapon} and opens the door...`);
   
@@ -38,6 +35,7 @@ let friend = READLINE.question("are you  going to spare cerberus or kill him?");
 
 if (friend == "kill") {
   console.log(" you kill cerberus, you cry because now your alone");
+  console
 }
 
 if (friend == "spare") {
@@ -46,15 +44,18 @@ if (friend == "spare") {
 
  
 } else {
-  player.intellect++;
+  player.courage++;
   console.log(`${player.name} decides not to open the door. However...`);
   // continue the story
   console.log(`${player.name} falls into a trapdoor`);
-  console.log("*** MINUS 2 HEALTH POINTS ***");
+  console.log("*** MINUS 20 HEALTH POINTS ***");
 
-console.log(`${player.name} tries to stand but the left leg is damaged`);
-console.log(`your ` );
- 
+console.log(`${player.name} tries to stand but the right leg is damaged`);
+console.log(`your partner (Cerberus) jumps down and begins to help you onto his back` );
+
+
+
+console.log(`will you let Cerberus help u or will give him a different order`)
 
 }
 console.log("Thanks for playing!");
