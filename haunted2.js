@@ -9,10 +9,6 @@ let player = {
   charm: 0,
   weapon: undefined,
   item: "high powered flashlight",
-  courage: 90,
-  intellect: 990,
-  strength: 888,
-  charm: 7000,
   powers: undefined
 
   };
@@ -21,7 +17,7 @@ let player = {
   console.log("*** WELCOME TO THE WITCH'S HOUSE  ***");
 
   player.name = READLINE.question("What is your name?");
-  weapon = READLINE.question("what is your weapon of choice?")
+  player.weapon = READLINE.question("what is your weapon of choice?")
 
 
  console.log(`${player.name} stands in front of a spooky WITCH'S HOUSE.`);
@@ -42,11 +38,11 @@ let player = {
  console.log("You did it!");
  console.log("WELCOME to level 2!")
  console.log("So now the WITCH has two poor kids")
- player.power = READLINE.question("which power? (glitter bombs or time control) " );
+ player.power = READLINE.question("which power? (super speed or time control) " );
 
 
- if(player.power == "glitter bombs"){
-  console.log("the Witch is blinded by the glitter, giving you enough time to grab the kids and bounce")
+ if(player.power == "super speed"){
+  console.log("the Witch is confuse, giving you enough time to grab the kids and bounce")
 }
 
 
