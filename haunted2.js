@@ -30,8 +30,7 @@ let player = {
   if(enterHouse == "y" || enterHouse == "yes") {
   player.courage++;
   console.log(`${player.name} prepares their ${player.weapon} and opens the door...`);
-  console.log(`${player.name} prepares their ${player.powers} and opens the door...`);
-  
+
  } else {
   player.intellect++;
   
